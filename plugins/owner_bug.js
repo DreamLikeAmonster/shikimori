@@ -246,11 +246,11 @@ let handler  = async (m, { conn, args, text, command, usedPrefix: _p, participan
 }
 
 handler.help = ['terorbug <nomer>']
-handler.tags = ['virus', 'premium']
+handler.tags = ['virus', 'pre]
 handler.command = /^terorbug$/i
 
-handler.premium = true
+handler.premium = false
 handler.limit = false
-handler.owner = false
+handler.owner = true
 
 export default handler
